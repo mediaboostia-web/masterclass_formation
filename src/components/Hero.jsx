@@ -107,8 +107,8 @@ const Hero = () => {
                 <BookOpen className="text-white w-6 h-6" />
               </div>
               <div>
-                <p className="font-bold font-heading text-white text-lg uppercase">+200 Affiches</p>
-                <p className="text-xs text-white/60">réalisées par le formateur</p>
+                <p className="font-bold font-heading text-white text-lg uppercase">Plus de 200 Affiches</p>
+                <p className="text-xs text-white/60">réalisées par les formateurs</p>
               </div>
             </div>
           </motion.div>
