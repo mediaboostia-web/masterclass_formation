@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Calendar, MapPin, ArrowRight, BookOpen, Users } from 'lucide-react';
-import heroImage from '../../Le formateur principal/Formateur Bodri.jpeg';
+import heroImage from '../../Affiches deja concus/assets/Affiche demo.jpeg';
 
 const Hero = () => {
   return (

@@ -5,8 +5,17 @@ import affiche1 from '../../Affiches deja concus/assets/Affiche1.jpeg';
 import affiche2 from '../../Affiches deja concus/assets/Affiche2.jpeg';
 import affiche3 from '../../Affiches deja concus/assets/Affiche3.jpeg';
 import affiche4 from '../../Affiches deja concus/assets/Affiche4.jpeg';
+import affiche5 from '../../Affiches deja concus/assets/WhatsApp Image 2026-02-21 at 03.20.08.jpeg';
+import affiche6 from '../../Affiches deja concus/assets/WhatsApp Image 2026-03-23 at 19.39.20.jpeg';
+import affiche7 from '../../Affiches deja concus/assets/WhatsApp Image 2026-03-23 at 19.40.18 (1).jpeg';
+import affiche8 from '../../Affiches deja concus/assets/WhatsApp Image 2026-03-23 at 19.40.18 (2).jpeg';
+import affiche9 from '../../Affiches deja concus/assets/WhatsApp Image 2026-03-23 at 19.40.18 (3).jpeg';
+import affiche10 from '../../Affiches deja concus/assets/WhatsApp Image 2026-03-23 at 19.40.19.jpeg';
 
-const affiches = [affiche1, affiche2, affiche3, affiche4, affiche1, affiche2, affiche3, affiche4];
+const affiches = [
+  affiche1, affiche2, affiche3, affiche4, affiche5, 
+  affiche6, affiche7, affiche8, affiche9, affiche10
+];
 
 const Preuves = () => {
   return (
