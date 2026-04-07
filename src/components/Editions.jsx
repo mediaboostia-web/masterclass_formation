@@ -1,13 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import img1 from '../../temoignage et preuves/Preuve3.jpg';
-import img2 from '../../temoignage et preuves/Preuve4.jpg';
-import img3 from '../../temoignage et preuves/Preuve5jpg.jpg';
-import img4 from '../../temoignage et preuves/masterclassjpg.jpg';
-import img5 from '../../temoignage et preuves/preuve masterclassjpg.jpg';
-import img6 from '../../temoignage et preuves/preuve.jpg';
-import img7 from '../../temoignage et preuves/preuve2.jpg';
+import img1 from '../../temoignage et preuves/Masterclasse 1ere édition4.jpeg';
+import img2 from '../../temoignage et preuves/Masterclasse 1ere édition5.jpeg';
+import img3 from '../../temoignage et preuves/Masterclasse 1ere édition6.jpeg';
+import img4 from '../../temoignage et preuves/Masterclasse 1ere édition7.jpeg';
+import img5 from '../../temoignage et preuves/Masterclasse 1ere édition8.jpeg';
+import img6 from '../../temoignage et preuves/Masterclasse 1ere édition9.jpeg';
+import img7 from '../../temoignage et preuves/Masterclasse 1ere édition10.jpeg';
 
 const images = [img1, img2, img3, img4, img5, img6, img7];
 
@@ -37,7 +37,7 @@ const Editions = () => {
             {[...images, ...images].map((src, index) => (
                <div key={index} className="w-[300px] md:w-[450px] aspect-[4/3] shrink-0 rounded-2xl overflow-hidden border border-white/10 group relative shadow-[0_10px_30px_rgba(43,25,112,0.3)]">
                  <img src={src} alt={`Edition precedente ${index}`} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-                 <div className="absolute inset-0 bg-orange-500/0 group-hover:bg-orange-500/20 mix-blend-overlay transition-all duration-300"></div>
+                 <div className="absolute inset-0 bg-green-500/0 group-hover:bg-green-500/20 mix-blend-overlay transition-all duration-300"></div>
                </div>
             ))}
          </motion.div>

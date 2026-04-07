@@ -25,7 +25,7 @@ const Header = () => {
           <a href="#editions" className="text-white/70 hover:text-primary transition-colors text-xs uppercase tracking-wider font-semibold">Éditions</a>
         </nav>
 
-        <a href="#tarifs" className="bg-primary hover:bg-orange-500 text-dark font-bold px-6 py-2 rounded-full transition-all hover:scale-105 shadow-[0_0_15px_rgba(255,137,0,0.4)]">
+        <a href="#tarifs" className="bg-primary hover:bg-green-500 text-dark font-bold px-6 py-2 rounded-full transition-all hover:scale-105 shadow-[0_0_15px_rgba(157,243,4,0.4)]">
           Réserver
         </a>
       </div>

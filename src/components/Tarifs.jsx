@@ -100,7 +100,7 @@ const Tarifs = () => {
             <a 
               href="https://wa.me/24174111777?text=Bonjour%20%21%20Je%20souhaite%20r%C3%A9server%20un%20PASS%20GROUPE%20pour%20la%20Masterclass%20Design%20Church" 
               target="_blank" rel="noreferrer"
-              className="w-full block text-center bg-primary hover:bg-orange-500 text-dark font-bold py-4 rounded-xl transition-all shadow-[0_0_20px_rgba(255,137,0,0.3)] hover:scale-105"
+              className="w-full block text-center bg-primary hover:bg-green-500 text-dark font-bold py-4 rounded-xl transition-all shadow-[0_0_20px_rgba(157,243,4,0.3)] hover:scale-105"
             >
               Réserver pour un groupe
             </a>

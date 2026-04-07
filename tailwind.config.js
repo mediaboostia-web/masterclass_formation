@@ -7,9 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#FF8900", // Orange
-        secondary: "#2B1970", // Violet
-        dark: "#000000", // Noir
+        primary: "#9df304", // Vert vif
+        secondary: "#bdda81", // Vert clair
+        dark: "#060904", // Vert foncé très sombre (background)
+        darker: "#3f5120", // Vert foncé
+        light: "#f2f2f2", // Gris clair
       },
       fontFamily: {
         heading: ['Montserrat', 'sans-serif'],

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Calendar, MapPin, ArrowRight, BookOpen, Users } from 'lucide-react';
-import heroImage from '../../Affiches deja concus/assets/Affiche demo.jpeg';
+import heroImage from '../../Le formateur principal/Formateur Bodri.jpeg';
 
 const Hero = () => {
   return (
@@ -27,7 +27,7 @@ const Hero = () => {
 
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-black font-heading leading-[1.1] tracking-tight uppercase">
             Crée des affiches <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-orange-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-green-400">
               d’église
             </span> qui attirent et impactent.
           </h1>
@@ -41,7 +41,7 @@ const Hero = () => {
               <Calendar className="text-secondary w-6 h-6" />
               <div>
                 <p className="text-xs text-white/50 uppercase tracking-wider font-semibold">Date</p>
-                <p className="font-semibold text-sm">Sam. 21 Avril 2026</p>
+                <p className="font-semibold text-sm">Sam. 18 Avril 2026</p>
               </div>
             </div>
             <div className="flex items-center space-x-3 bg-white/5 rounded-xl p-4 border border-white/10">
@@ -56,7 +56,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4 pt-4">
             <a 
               href="#tarifs" 
-              className="w-full sm:w-auto flex items-center justify-center space-x-2 bg-primary hover:bg-orange-500 text-dark font-bold px-8 py-4 rounded-xl transition-all hover:scale-105 shadow-[0_0_30px_rgba(255,137,0,0.4)] cursor-pointer"
+              className="w-full sm:w-auto flex items-center justify-center space-x-2 bg-primary hover:bg-green-500 text-dark font-bold px-8 py-4 rounded-xl transition-all hover:scale-105 shadow-[0_0_30px_rgba(157,243,4,0.4)] cursor-pointer"
             >
               <span>Réserver ma place</span>
               <ArrowRight className="w-5 h-5" />
@@ -68,7 +68,7 @@ const Hero = () => {
               className="w-full sm:w-auto flex items-center justify-center space-x-2 bg-transparent border border-secondary hover:bg-secondary/20 text-white font-medium px-8 py-4 rounded-xl transition-all cursor-pointer"
             >
               <Users className="w-5 h-5 text-secondary" />
-              <span>Groupe Gratuit</span>
+              <span>Rejoindre le groupe de formation gratuit</span>
             </a>
           </div>
         </motion.div>
@@ -86,10 +86,7 @@ const Hero = () => {
             
             <div className="absolute inset-0 bg-gradient-to-t from-dark/80 via-dark/20 to-transparent z-10"></div>
             
-            {/* Price Badge */}
-            <div className="absolute top-6 right-6 z-30 bg-primary text-dark font-black px-4 py-2 rounded-lg shadow-xl shadow-primary/30 rotate-3">
-              15.000 XAF
-            </div>
+            {/* Price Badge Removed */}
             
             <div className="absolute bottom-8 left-8 z-20">
               <div className="bg-white text-dark font-black text-xl uppercase tracking-widest px-4 py-2 rounded-lg inline-block shadow-lg">Design Church</div>
@@ -108,7 +105,7 @@ const Hero = () => {
               </div>
               <div>
                 <p className="font-bold font-heading text-white text-lg uppercase">Plus de 200 Affiches</p>
-                <p className="text-xs text-white/60">réalisées par les formateurs</p>
+                <p className="text-xs text-white/60">réalisées par le formateur</p>
               </div>
             </div>
           </motion.div>

@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, BookOpen } from 'lucide-react';
-import pdfFile from '../../Ebook gratuit/5 SECRET POUR CREER DES AFFICHES EGLISE_EBOOK GRATUIT.pdf?url';
-import ebookCover from '../../Ebook gratuit/Livre-gratuit.jpg';
+import pdfFile from '../../Ebook gratuit/5 SECRET POUR CREER DES AFFICHES EGLISE_EBOOK GRATUIT Officiel (1).pdf?url';
+import ebookCover from '../../Ebook gratuit/Secrets des affiches d\'église.png';
 
 const Ebook = () => {
   return (

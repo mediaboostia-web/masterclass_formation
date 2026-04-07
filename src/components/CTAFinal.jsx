@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const CTAFinal = () => {
   // Simple countdown logic 
-  const [timeLeft, setTimeLeft] = useState({ d: 15, h: 10, m: 30, s: 0 });
+  const [timeLeft, setTimeLeft] = useState({ d: 11, h: 10, m: 30, s: 0 });
 
   useEffect(() => {
     // Faux countdown for effect
@@ -62,7 +62,7 @@ const CTAFinal = () => {
 
           <a 
             href="#tarifs" 
-            className="inline-block bg-primary hover:bg-orange-500 text-dark font-black text-xl px-12 py-6 rounded-2xl transition-all hover:scale-105 shadow-[0_0_50px_rgba(255,137,0,0.5)] animate-pulse"
+            className="inline-block bg-primary hover:bg-green-500 text-dark font-black text-xl px-12 py-6 rounded-2xl transition-all hover:scale-105 shadow-[0_0_50px_rgba(157,243,4,0.5)] animate-pulse"
           >
             JE RÉSERVE MA PLACE
           </a>

@@ -18,7 +18,7 @@ const FAQ = () => {
     },
     {
       q: "Combien de temps dure la formation ?",
-      a: "C'est une immersion d'une journée intensive le Samedi 21 Avril 2026. Tu en ressortiras transformé, avec des compétences concrètes et immédiatement applicables."
+      a: "C'est une immersion d'une journée intensive le Samedi 18 Avril 2026. Tu en ressortiras transformé, avec des compétences concrètes et immédiatement applicables."
     }
   ];
 

@@ -16,7 +16,7 @@ const Problemes = () => {
           <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
             <h2 className="text-4xl md:text-5xl font-heading font-black mb-6 uppercase text-white leading-tight">
               Le problème <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-500">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-primary">
                 n'est pas ton événement.
               </span>
             </h2>

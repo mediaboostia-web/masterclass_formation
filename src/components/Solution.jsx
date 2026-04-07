@@ -52,7 +52,7 @@ const Solution = () => {
           </div>
           
           <div className="mt-14">
-            <a href="#tarifs" className="inline-block bg-primary hover:bg-orange-500 text-dark font-bold px-10 py-5 rounded-xl transition-all hover:scale-105 shadow-[0_0_30px_rgba(255,137,0,0.4)] text-lg">
+            <a href="#tarifs" className="inline-block bg-primary hover:bg-green-500 text-dark font-bold px-10 py-5 rounded-xl transition-all hover:scale-105 shadow-[0_0_30px_rgba(157,243,4,0.4)] text-lg">
               Découvrir le programme
             </a>
           </div>
